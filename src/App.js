@@ -1,10 +1,16 @@
 import "./styles.css";
+import "./Desktop.js";
+import MobileLayout from "./Mobile";
+import DesktopLayout from "./Desktop";
+
+const screenSize = window.screen;
+
+console.log(screenSize);
 
 export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+  if (screenSize.width <= 480) {
+    return <MobileLayout />;
+  } else {
+    return <DesktopLayout />;
+  }
 }
