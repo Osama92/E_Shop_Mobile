@@ -1,10 +1,24 @@
 import "./styles.css";
+import "boxicons";
 
 export default function MobileLayout() {
   return (
     <div className="MobileLayout">
-      <h1>Hello CodeSandbox</h1>
-      <h2>This is Mobile Layout</h2>
+      <div className="safeArea"></div>
+      <div className="Header">
+        <div className="title_section">
+          <div className="search">
+            <box-icon name="search"></box-icon>
+          </div>
+          <div className="shop_name">
+            <p>Make Shopping</p>
+            <p className="bold">SIMPLE</p>
+          </div>
+          <div className="cart">
+            <box-icon name="cart-alt"></box-icon>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
