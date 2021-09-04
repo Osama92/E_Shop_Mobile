@@ -24,35 +24,52 @@ export default function MobileLayout() {
           </div>
         </div>
         <div className="head_menu">
-          <div className="logo_holder">
-            <img
-              src="https://img.icons8.com/ios/50/000000/star.png"
-              className="i8_size"
-            />
+          <div className="menu_logo">
+            <div className="logo_holder">
+              <img
+                src="https://img.icons8.com/ios/50/000000/star.png"
+                className="i8_size"
+              />
+            </div>
+
+            <p className="logo_text">Popular</p>
           </div>
-          <div className="logo_holder">
-            <img
-              src="https://img.icons8.com/ios/50/000000/chair.png"
-              className="i8_size"
-            />
+          <div className="menu_logo">
+            <div className="logo_holder">
+              <img
+                src="https://img.icons8.com/ios/50/000000/chair.png"
+                className="i8_size"
+              />
+            </div>
+            <p className="logo_text">Chairs</p>
           </div>
-          <div className="logo_holder">
-            <img
-              src="https://img.icons8.com/ios/50/000000/three-seater-sofa.png"
-              className="i8_size"
-            />
+          <div className="menu_logo">
+            <div className="logo_holder">
+              <img
+                src="https://img.icons8.com/ios/50/000000/three-seater-sofa.png"
+                className="i8_size"
+              />
+            </div>
+            <p className="logo_text">Sofa</p>
           </div>
-          <div className="logo_holder">
-            <img
-              src="https://img.icons8.com/ios/50/000000/table.png"
-              className="i8_size"
-            />
+          <div className="menu_logo">
+            <div className="logo_holder">
+              <img
+                src="https://img.icons8.com/ios/50/000000/table.png"
+                className="i8_size"
+              />
+            </div>
+            <p className="logo_text">Table</p>
           </div>
-          <div className="logo_holder">
-            <img
-              src="https://img.icons8.com/ios/50/000000/bed.png"
-              className="i8_size"
-            />
+          <div className="menu_logo">
+            <div className="logo_holder">
+              <img
+                src="https://img.icons8.com/ios/50/000000/table.png"
+                className="i8_size"
+              />
+            </div>
+
+            <p className="logo_text">Popular</p>
           </div>
         </div>
       </div>
