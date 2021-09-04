@@ -64,12 +64,12 @@ export default function MobileLayout() {
           <div className="menu_logo">
             <div className="logo_holder">
               <img
-                src="https://img.icons8.com/ios/50/000000/table.png"
+                src="https://img.icons8.com/ios/50/000000/bureau.png"
                 className="i8_size"
               />
             </div>
 
-            <p className="logo_text">Popular</p>
+            <p className="logo_text">Cupboard</p>
           </div>
         </div>
       </div>
