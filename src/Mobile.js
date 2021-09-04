@@ -8,14 +8,20 @@ export default function MobileLayout() {
       <div className="Header">
         <div className="title_section">
           <div className="search">
-            <box-icon name="search" size="sm"></box-icon>
+            <img
+              src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"
+              className="i8_size1"
+            />
           </div>
           <div className="shop_name">
             <p>Make home</p>
             <p className="bold">BEAUTIFUL</p>
           </div>
           <div className="cart">
-            <box-icon name="cart-alt" size="sm"></box-icon>
+            <img
+              src="https://img.icons8.com/material-outlined/48/000000/shopping-cart--v1.png"
+              className="i8_size1"
+            />
           </div>
         </div>
         <div className="head_menu">
