@@ -68,6 +68,27 @@ p {
   justify-content: center;
   align-items: center;
 }
+.head_menu {
+  width: 90%;
+  min-height: 4rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo_holder {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1eeee;
+  border-radius: 5px;
+}
+.i8_size {
+  width: 80%;
+}
 .DesktopLayout {
   font-family: sans-serif;
   text-align: center;
