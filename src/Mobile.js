@@ -1,5 +1,4 @@
 import "./styles.css";
-import "boxicons";
 
 export default function MobileLayout() {
   return (
